@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.b-black {
+    border: 1px solid black;
+}
+
+.b-white {
+    border: 1px solid white;
+}
+
+.large {
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+    .large {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+}
