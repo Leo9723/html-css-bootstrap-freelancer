@@ -150,25 +150,27 @@
                         <div class="col-3 bg-black star-bar"></div>
                     </div>
                 </div>
-                <div class="col-10 pb-3 pt-2 ps-0 border-bottom-gray">
-                    Name
-                </div>
-                <div class="col-10 pb-3 pt-2 ps-0 border-bottom-gray">
-                    Email Address
-                </div>
-                <div class="col-10 pb-3 pt-2 ps-0 border-bottom-gray">
-                    Phone Number
-                </div>
-                <div class="col-10 pb-3 pt-2 ps-0 mb-5">
-                    Message
-                </div>
-                <div class="col-10 pt-3 mt-5 ps-0 border-top-gray">
-                    <div class="btn">
-                        <button class="bg-green send-button">
-                            Send
-                        </button>
+                <form action="" class="col-10">
+                    <div class="col-12 pb-3 pt-2 ps-0 border-bottom-gray">
+                        <input type="text" name="name" placeholder="Nome" required>
                     </div>
-                </div>
+                    <div class="col-12 pb-3 pt-2 ps-0 border-bottom-gray">
+                        <input type="email" name="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="col-12 pb-3 pt-2 ps-0 border-bottom-gray">
+                        <input type="text" name="number" placeholder="Number" required>
+                    </div>
+                    <div class="col-12 pb-3 pt-2 ps-0">
+                        <textarea name="Message" placeholder="Message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="col-12 pt-3 ps-0 border-top-gray">
+                        <div class="btn">
+                            <button class="bg-green send-button">
+                                <input type="submit" value="Send" class="bg-green">
+                            </button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
         <footer class="bg-blue">
